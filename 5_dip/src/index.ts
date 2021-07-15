@@ -1,3 +1,5 @@
-const curso: string = "typescript"
+import Payment from "./Payment/Payment";
 
-console.log(curso)
+const payment = new Payment();
+
+payment.pay(250)
