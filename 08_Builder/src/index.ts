@@ -16,3 +16,10 @@ director.constructTruck();
 const truck: Vehicle = builder.getVehicle();
 
 console.log(`Criando um veiculo do tipo: ${truck.vehicleType} com ${truck.wheelsTotal} rodas.`)
+
+director.constructMotorcycle();
+
+const motorcycle: Vehicle = builder.getVehicle();
+
+console.log(`Criando um veiculo do tipo: ${motorcycle.vehicleType} com ${truck.wheelsTotal} rodas.`)
+
