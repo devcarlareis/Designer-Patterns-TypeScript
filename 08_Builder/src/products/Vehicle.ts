@@ -14,6 +14,14 @@ export default class Vehicle {
         this._wheels.push(wheel);
     }
 
+    get wheels(): Wheel[] {
+        return this._wheels
+    }
+
+    get wheelsTotal(): number {
+        return this._wheels.length;
+    }
+
     get vehicleType(): VehicleType {
         return this._vehicleTypes;
     }
