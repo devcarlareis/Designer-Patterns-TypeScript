@@ -1,3 +1,7 @@
-const curso: string = "typescript"
+import IPayPalPayment from "./paypal/IPaypalPayment";
+import PayPal from "./paypal/PayPal";
 
-console.log(curso)
+const payment : IPayPalPayment = new PayPal();
+
+payment.paypalPayment();
+payment.paypalReceive();
