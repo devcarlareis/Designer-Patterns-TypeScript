@@ -1,4 +1,4 @@
-import chalk from "chalk"
+import * as chalk from 'chalk'
 import DataBase from "../servers/DataBase"
 import PermissionType from "../servers/PermissionType"
 import Middleware from "./middleware"

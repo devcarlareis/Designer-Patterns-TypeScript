@@ -11,7 +11,7 @@ export default class CheckUserMiddleware extends Middleware{
         }
 
         if (!DataBase.filter(item => item.email === email && item.password === password).length) {
-            console.log('E-mail e/ou senha inválidos')
+            console.log(chalk.red('E-mail e/ou senha inválidos'))
             return false;
         }
 

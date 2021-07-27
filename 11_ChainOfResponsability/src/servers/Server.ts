@@ -1,4 +1,4 @@
-import chalk from "chalk";
+import * as chalk from 'chalk'
 import Middleware from "../middlewares/middleware";
 
 export default class Server {
